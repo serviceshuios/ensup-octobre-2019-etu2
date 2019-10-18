@@ -45,16 +45,16 @@ PARTIE 1 : QUESTIONS DE COURS :
 PARTIE 2 : MISE EN OEUVRE TECHNIQUE
 1. Ecrire en java dans la couche metier le diagramme de classe du fichier Metier.pdf 
 
-
 2.Dans la couche service créer:
  - la méthode d'ajout d'une commande à un client:
-public void ajouterCommandeClient(Client c,Produit p, int quantite) 
+public void ajouterCommandeClient(Client cli,Commande c) 
+public void ajouterCommandeProduit(Commande c, Produit p ,int qute)
 
 - la méthode de listage des commande d'un client
 public List<Commande> listerCommandeClient(Client c)
 
 - BONUS: la methode de suppression d'une commande d'un client
-public void supprimerCommandeClient(Client c,Produit p)
+public void supprimerCommandeClient(Client cli ,Commande c)
 
 Dans le lanceur:
 3. créer 2 clients 
