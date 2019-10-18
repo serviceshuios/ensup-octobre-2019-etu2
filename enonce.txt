@@ -44,7 +44,7 @@ PARTIE 1 : QUESTIONS DE COURS :
 
 PARTIE 2 : MISE EN OEUVRE TECHNIQUE
 1. Ecrire en java dans la couche metier le diagramme de classe du fichier Metier.pdf 
-(ne pas représenter les attributs FK)
+
 
 2.Dans la couche service créer:
  - la méthode d'ajout d'une commande à un client:
